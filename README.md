@@ -18,9 +18,17 @@ Usage
 
 ```
 $ yum install -y ansible python-dnf
+$ ansible-galaxy install -r roles.txt
 $ vi hosts
 $ ansible-playbook -i hosts deploy_firejail.yml
 ```
+
+
+Used roles
+----------
+
+  * gbraad.firejail  
+    [Galaxy](https://galaxy.ansible.com/gbraad/firejail/), [GitHub](https://github.com/gbraad/ansible-role-firejail) / [GitLab](https://gitlab.com/gbraad/ansible-role-firejail)
 
 
 Authors
