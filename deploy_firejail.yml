@@ -1,0 +1,8 @@
+---
+- name: Deploy firejail
+  hosts: firejail-hosts
+  remote_user: root
+  become: true
+  roles:
+  - gbraad.firejail
+
